@@ -29,7 +29,7 @@ python3 val_format.py
 ### For using different optimizers for training:
 Import the required optimizer from the optimizer folder into the main file and change the lines where optimizer is used and pass the necessary arguments.
 #### Import statements:
-1. AdamW with second order decoupling:
+AdamW with second order decoupling:
 ```
 from optimizers.adamw_second_order_decoupling import AdamW
 ```
@@ -37,7 +37,7 @@ AdamW with adaptive weight decay intervals:
 ```
 from optimizers.adamw_weight_decay_intervals import AdamW
 ```
-3. RAdam with second order decoupling:
+RAdam with second order decoupling:
 ```
 from optimizers.radam_second_order_decoupling import RAdam
 ```
@@ -45,7 +45,7 @@ RAdam with adaptive weight decay intervals:
 ```
 from optimizers.radam_weight_decay_intervals import RAdam
 ```
-4. AdaBelief with second order decoupling:
+AdaBelief with second order decoupling:
 ```
 from optimizers.adabelief_second_order_decoupling import AdaBelief
 ```
