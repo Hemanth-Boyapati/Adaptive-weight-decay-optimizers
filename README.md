@@ -6,7 +6,7 @@ This repository contains optimizer files of applying second order weight decoupl
 python main.py
 ```
 ### For training on TinyImagenet dataset first run this script before exectuing the main script:
-1. 
+1. Download the TinyImagenet dataset and extract the files in the downloaded zip file with this code:
 ```
 import urllib.request
 import zipfile
