@@ -36,4 +36,4 @@ for path in paths:
         dest = test_folder + '/' + str(folder) + '/images/' + str(file)
     move(path, dest)
     
-rmdir('/content/drive/MyDrive/4th_year_project/SATA/dataset/tiny-imagenet-200/val/images')
+rmdir('dataset/tiny-imagenet-200/val/images')
